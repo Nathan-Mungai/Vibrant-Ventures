@@ -299,7 +299,6 @@ nav svg{
     bottom:15px;
     font-size: 1.15rem;
     padding: 1px 5px;
-    cursor: pointer;
     border-radius: 10px;
     border: 0;
     background-color: rgba(77, 77, 77, 0.6);
@@ -309,7 +308,6 @@ nav svg{
 }
 .service_card:hover{
     transform: scale(1.04);
-    cursor:pointer;
 }
 .service_card:hover .service-btn{
     opacity: 1;

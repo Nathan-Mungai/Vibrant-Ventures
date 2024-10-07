@@ -3,14 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Website</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+    <link rel="stylesheet" href="services.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <!--navigation bar-->
+    <!--navbar-->
     <nav class="navbar">
         <a href="index.html" id="navbar_logo">
             VIBRANT VENTURES
@@ -43,50 +43,109 @@
                 </ul>
             </div>
     </nav>
+    <!--content-->
+    <section class="hero">
+        <div class="main_img">
+            <img src="images/pexels-pixabay-147411.jpg" alt="hero-img" class="hero_img">
+        </div>
+        <div class="hero-content">
+            <h1>Explore Our Services</h1>
+            <p>Discover what we offer to make your adventures unforgettable.</p> 
+        </div>
+        <a href="#services-overview" class="hero-btn"><svg xmlns="http://www.w3.org/2000/svg" height="32px" viewBox="0 -960 960 960" width="26px" fill="#e8eaed"><path d="M440-800v487L216-537l-56 57 320 320 320-320-56-57-224 224v-487h-80Z"/></svg></a>
+    </section>
 
-    <!--Hero-->
-    <div class="main">
-        <div class="main_container">
-            <div class="main_img">
-                <img src="images/pexels-yaroslav-shuraev-8968081.png" alt="hero-img" class="hero_img">
+    <section id="services-overview" class="services-overview">
+        <h2>Our Services</h2>
+    </section>
+    
+    <section class="service-detail">
+        <div class="service-content">
+            <h2>Adventure Activities</h2>
+            <p>Experience the thrill of adventure like never before...</p>
+        </div>
+        <div class="service-images">
+            <div class="image_container">
+                <img src="images/rafting.jpg" alt="Rafting" class="service_img">
+                <p>River Rafting - Zambia</p>
             </div>
-            <div class="main_content">
-                <div class="main_txt">
-                    <div class="grad_txt">
-                        <h1>DISCOVER THE WORLD</h1>
-                        <h2>EMBRACE THE JOURNEY</h2>
-                    </div>
-                    <p>Create unforgettable memories, one adventure at a time</p>
-                    <br>
-                    <button class="hero_btn">Let's Go!</button>
-                </div>
-                
+            <div class="image_container">
+                <img src="images/skydive.jpg" alt="Skydiving" class="service_img">
+                <p>Skydiving - South Africa</p>
+            </div>
+            <div class="image_container">
+                <img src="images/scuba.jpg" alt="Scubadiving" class="service_img">
+                <p>Scuba diving - Belize</p>
             </div>
         </div>
-    </div>
-
-    <!--Services-->
-    <div class="services">
-        <h1>CHOOSE YOUR EXPERIENCE</h1>
-        <div class="service_container">
-            <div class="service_card">
-                <h2>Find Peace and Solace in Nature</h2>
-                <p>Escape to the great outdoors.</p>
-                <button class="service-btn">Breathe deep</button>
-            </div>
-            <div class="service_card">
-                <h2>Experience Thrilling Adventures</h2>
-                <p>Experience exhilarating activities.</p>
-                <button class="service-btn">Take the leap</button>
-            </div>
-            <div class="service_card">
-                <h2>Dive into Cultural Experiences</h2>
-                <p>Engage with vibrant cultures.</p>
-                <button class="service-btn">Embark on a journey</button>
-            </div>
+    </section>
+    <section class="service-detail">
+        <div class="service-content">
+            <h2>Cultural Experiences</h2>
+            <p>Immerse yourself in diverse cultures....</p>
         </div>
-    </div>
-    <!--Footer-->
+        <div class="service-images">
+            <div class="image_container">
+                <img src="images/cinco.jpg" alt="Cinco de mayo" class="service_img">
+                <p>Cinco de Mayo - Mexico</p>
+            </div>
+            <div class="image_container">
+                <img src="images/holi.jpg" alt="Holi" class="service_img">
+                <p>Holi Festival - India</p>
+            </div>
+            <div class="image_container">
+                <img src="images/carni.jpg" alt="Carnival" class="service_img">
+                <p>Carnival Festival - Brazil</p>
+            </div>
+            
+        </div>
+    </section>
+    <section class="service-detail">
+        <div class="service-content">
+            <h2>Nature Retreats</h2>
+            <p>Find peace and solace in nature....</p>
+        </div>
+        <div class="service-images">
+            <div class="image_container">
+                 <img src="images/retreat1.jpg" alt="Retreat" class="service_img">
+                 <p>Villa - Spain</p>
+            </div>
+            <div class="image_container">
+                <img src="images/aurora.jpg" alt="Aurora" class="service_img">
+                <p>Aurora Borealis - Iceland</p>
+            </div>
+            <div class="image_container">
+                <img src="images/forest.jpg" alt="Walk" class="service_img">
+                <p>Redwood National Park - USA</p>
+            </div>
+            
+        </div>
+    </section>
+    
+    <section class="faq-section">
+        <h2>Frequently Asked Questions</h2>
+        <details class="faq-item">
+            <summary class="faq_summary">What is Vibrant Ventures?</summary>
+            <p class="faq-answer">We are a company specializing in organizing unforgettable experiences for adventurers of all kinds.</p>
+        </details>
+    
+        <details class="faq-item">
+            <summary class="faq_summary">How do I book an adventure?</summary>
+            <p class="faq-answer">You can book an adventure by visiting our contacts page and reaching out to us on any of our social medias.</p>
+        </details>
+    
+        <details class="faq-item">
+            <summary class="faq_summary">How much do your adventures cost?</summary>
+            <p class="faq-answer">Our adventure costs vary based on the type, duration, and location. Day trips start at around $60 per person, while weekend getaways range from $190 to $400. For custom experiences, pricing depends on your specific requests. Please contact us for detailed quotes!</p>
+        </details>
+
+        <details class="faq-item">
+            <summary class="faq_summary">What types of experiences do you offer?</summary>
+            <p class="faq-answer">We offer a range of experiences including nature excursions, adrenaline-pumping adventures, and cultural immersions.</p>
+        </details>
+        
+    </section>
+    <!--footer-->
     <div class="footer">
         <div class="copyright">
             <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed"><path d="M400-320h160q17 0 28.5-11.5T600-360v-80h-80v40h-80v-160h80v40h80v-80q0-17-11.5-28.5T560-640H400q-17 0-28.5 11.5T360-600v240q0 17 11.5 28.5T400-320Zm80 240q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z"/></svg>
