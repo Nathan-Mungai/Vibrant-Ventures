@@ -22,7 +22,7 @@ The main goal of this project is to design and build a responsive website using 
    git clone https://github.com/josiah-mbao/responsive-website-project.git
 
 2. Navigate to the project directory:
-```bash
-cd responsive-website-project
+	```bash
+	cd responsive-website-project
 
 3.	Open the index.html file in your browser to view the website.
