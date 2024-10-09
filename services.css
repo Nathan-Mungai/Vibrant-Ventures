@@ -53,7 +53,7 @@
     margin-right: 10px;
 }
 .navbar_links:hover{
-    background-color: #A65E2E;
+    background-color: #E56917;
     border-radius:20px ;
     scale: 1.1;
 }
@@ -68,7 +68,7 @@ nav svg{
     padding: 0 1rem;
 }
 /*mobile responsiveness*/
-@media only screen and (max-width:500px){
+@media only screen and (max-width:610px){
     #navbar_logo{
         max-width: 11rem ;
     }
@@ -154,7 +154,7 @@ nav svg{
     transition: all 0.3s ease-in;
 }
 .socials svg:hover{
-    fill: #305E1D;
+    fill: #005bb5;
     transform: translateY(-5px);
 }
 
@@ -249,7 +249,7 @@ nav svg{
     right: 20px;
     width: 50px;
     height: 50px;
-    background-color: #A65E2E;
+    background-color: #0073e6;
     border: none;
     border-radius: 50%;
     display: flex;
@@ -266,7 +266,7 @@ nav svg{
 }
 
 .hero-btn:hover {
-    background-color: #e9f5e1;
+    background-color: #005bb5;
 }
 
 /*hero mobile*/
@@ -291,7 +291,7 @@ nav svg{
 
 .services-overview {
     padding: 40px 20px;
-    background-color: #3b2f2f;
+    background-color: #0073e6;
     text-align: center;
     width: 100%;
     overflow: hidden;
@@ -311,8 +311,8 @@ nav svg{
     flex-wrap: wrap; 
     width: 100%;
     overflow: hidden;
-    background-color: #F5F5DC;
-    color: #333333;
+    background-color: #E4ECEB;
+    color: #0053a5;
 }
 
 .service-content {
@@ -344,7 +344,7 @@ nav svg{
     transition: all 0.5s ease;
     color: #F5F5DC;
     font-weight:600 ; 
-    background: rgba(48, 94, 29, 0.4);
+    background: rgba(0, 91, 181, 0.2);
     border-radius: 20px;
 }
 
@@ -420,7 +420,7 @@ nav svg{
 
 /* General FAQ Section Styling */
 .faq-section {
-    background-color: #3b2f2f;
+    background-color: #0073e6;
     padding: 40px 20px;
     margin: 0 auto;
     width: 100%;
@@ -451,11 +451,13 @@ nav svg{
     padding: 15px;
     font-weight: bold;
     list-style: none;
-    background-color: #e9f5e1;
+    background-color: #E4ECEB;
+    transition: all 0.3s ease;
 }
 
 .faq_summary:hover {
-    background-color: hsl(102, 53%, 64%);
+    background-color: #063f78;
+    color: #F5F5DC;
 }
 
 .faq-answer {
@@ -466,7 +468,8 @@ nav svg{
 }
 
 details[open] .faq_summary{
-    background-color: hsl(102, 53%, 64%);
+    background-color: #063f78;
+    color: #F5F5DC;
 }
 
 details[open] .faq-answer {
